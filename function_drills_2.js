@@ -44,8 +44,9 @@ function decode(word) {
             arr.push(" ");
         }
     }
-    return arr;
+    return arr.join("");
 }
+
 
 console.log(decode('craft block argon meter bells brown croon droop'));
 
